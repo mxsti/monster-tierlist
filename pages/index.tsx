@@ -47,7 +47,7 @@ export default function Home() {
       
       {/* DIDNT TRY */}
       <div className="flex flex-row items-center">
-        <div className="px-8 text-5xl">❔</div>
+        <div className="px-8 text-5xl">❓</div>
         <img className="monsterImg px-8" src={ultra_lila.src} />
         <img className="monsterImg px-8" src={monster_mule.src} />
         <img className="monsterImg px-8" src={nitro.src} />
