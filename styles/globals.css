@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layere base {
-    body {
-        @apply bg-[#A1BEC7]
-    }
-}
-
 @layer components {
     .monsterImg {
         @apply w-32 m-4 transition ease-in-out delay-75 hover:scale-105
