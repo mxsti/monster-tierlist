@@ -11,20 +11,26 @@ import ultra_watermelon from '../img/ultra_watermelon.png';
 import ultra_white from '../img/ultra_white.png';
 import juiced_mango from '../img/juiced_mango.png';
 import juiced_pink from '../img/juiced_pink.png';
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <div className='grid grid-rows-4 h-screen'>
+
+      <Head>
+        <title>Frauki :)</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       
       {/* S TIER */}
-      <div className="flex flex-row items-center w-screen">
+      <div className="flex flex-row items-center">
         <div className="px-8 text-5xl">⭐️</div>
         <img className="monsterImg px-8" src={blau.src} />
         <img className="monsterImg px-8" src={ultra_white.src} />
       </div>
 
       {/* A TIER */}
-      <div className="bg-[#E0E0E0] flex flex-row items-center">
+      <div className="flex flex-row items-center">
         <div className="px-8 text-5xl">👍🏼</div>
         <img className="monsterImg px-8" src={normal.src} />
         <img className="monsterImg px-8" src={ultra_fiesta.src} />
@@ -40,7 +46,7 @@ export default function Home() {
       </div>
       
       {/* DIDNT TRY */}
-      <div className="bg-[#E0E0E0] flex flex-row items-center">
+      <div className="flex flex-row items-center">
         <div className="px-8 text-5xl">❔</div>
         <img className="monsterImg px-8" src={ultra_lila.src} />
         <img className="monsterImg px-8" src={monster_mule.src} />
