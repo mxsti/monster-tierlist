@@ -11,6 +11,7 @@ import ultra_watermelon from '../img/ultra_watermelon.png';
 import ultra_white from '../img/ultra_white.png';
 import juiced_mango from '../img/juiced_mango.png';
 import juiced_pink from '../img/juiced_pink.png';
+import ultra_gold from '../img/ultra_gold.png';
 import Head from 'next/head';
 
 export default function Home() {
@@ -43,6 +44,7 @@ export default function Home() {
         <img className="monsterImg px-8" src={ultra_gruen.src} />
         <img className="monsterImg px-8" src={rossi.src} />
         <img className="monsterImg px-8" src={assault.src} />
+        <img className="monsterImg px-8" src={ultra_gold.src} />
       </div>
       
       {/* DIDNT TRY */}
