@@ -2,4 +2,4 @@
 
 ![cloud](./public/favicon-32x32.png)
 
-[go see it here](lukas-bewertet-energy.de)
+[go see it here](https://lukas-bewertet-energy.vercel.app/)
