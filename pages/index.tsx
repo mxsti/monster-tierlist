@@ -19,7 +19,7 @@ export default function Home() {
     <div className='grid grid-rows-4 h-screen'>
 
       <Head>
-        <title>Frauki :)</title>
+        <title>:)</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       
